@@ -43,17 +43,9 @@
     </div>
   </header>
   <!--================Header Menu Area =================-->
-  
-  {% if fresh_posts %}
-    <main class="site-main">
-  {% endif %}
 
   {% block content %}{% endblock %}
-  {% block sidebar %}{% endblock %}
 
-  {% if fresh_posts %}
-    </main>
-  {% endif %}
   <!--================ Start Footer Area =================-->
   <footer class="footer-area section-padding">
     <div class="container">
